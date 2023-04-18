@@ -50,32 +50,39 @@ $ git clone https://github.com/JZhuTest/OfflineTestDemo.git
 $ cd OfflineTestDemo
 ```
 
+As the react is built and created using create-react-app, please install all the dependency package first
+```sh
+$ cd OfflineTestDemo/frontend/public
+$ npm install
+
+```
+
 ## Usage
 
 ### Running the web api
 
 ```sh
-$ cd backend/PizzeriaDemoAPI
+$ cd OfflineTestDemo/backend/PizzeriaDemoAPI
 $ dotnet run
 ```
 ### Running the web api tests
 
 ```sh
-$ cd backend/PizzeriaDemoAPITests
+$ cd OfflineTestDemo/backend/PizzeriaDemoAPITests
 $ dotnet test
 ```
 
 ### Running the website
 
 ```sh
-$ cd frontend/public
+$ cd OfflineTestDemo/frontend/public
 $ npm start
 ```
 
 ### Running the website tests
 
 ```sh
-$ cd frontend/public
+$ cd OfflineTestDemo/frontend/public
 $ npm test
 ```
 
